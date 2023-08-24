@@ -62,6 +62,7 @@ namespace MiCamioncito.Controllers
         [Route("create")]
         public dynamic createVehicle(Vehicle vehicle)
         {
+            
             List<Parameter> parameters = new List<Parameter>
             {
                 new Parameter("@CapacityCubicMeters", vehicle.CapacityCubicMeters.ToString()),
