@@ -5,7 +5,11 @@ namespace MiCamioncito.Resources
 {
     public class database
     {
+        //local
         public static string cadenaConexion = "Data Source=DESKTOP-N4JNAO5;Initial Catalog=MiCamioncito;Integrated Security=True";
+
+        //
+        //public static string cadenaConexion = "Data Source = sql.bsite.net\\MSSQL2016;Initial Catalog = axel548_MiCamioncito; Persist Security Info=True;User ID = axel548_MiCamioncito";
         public static DataSet ListarTablas(string nombreProcedimiento, List<Parameter> parametros = null)
         {
             SqlConnection conexion = new SqlConnection(cadenaConexion);

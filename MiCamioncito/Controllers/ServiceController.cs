@@ -79,7 +79,7 @@ namespace MiCamioncito.Controllers
         }
 
 
-        [HttpPost]
+        [HttpPut]
         [Route("update")]
         public dynamic updateService(Service service)
         {
@@ -104,8 +104,8 @@ namespace MiCamioncito.Controllers
         }
 
 
-        [HttpPost]
-        [Route("delete")]
+        [HttpDelete]
+        [Route("delete/{id}")]
         public dynamic deleteClient(int id)
         {
             List<Parameter> parameters = new List<Parameter>

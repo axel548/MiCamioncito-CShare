@@ -84,7 +84,7 @@ namespace MiCamioncito.Controllers
         }
 
 
-        [HttpPost]
+        [HttpPut]
         [Route("update")]
         public dynamic updateVehicle(Vehicle vehicle)
         {
@@ -110,8 +110,8 @@ namespace MiCamioncito.Controllers
         }
 
 
-        [HttpPost]
-        [Route("delete")]
+        [HttpDelete]
+        [Route("delete/{id}")]
         public dynamic deleteVehicle(int id)
         {
             List<Parameter> parameters = new List<Parameter>

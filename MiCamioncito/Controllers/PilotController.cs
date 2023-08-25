@@ -84,7 +84,7 @@ namespace MiCamioncito.Controllers
         }
 
 
-        [HttpPost]
+        [HttpPut]
         [Route("update")]
         public dynamic updatePilot(Pilot pilot)
         {
@@ -109,8 +109,8 @@ namespace MiCamioncito.Controllers
         }
 
 
-        [HttpPost]
-        [Route("delete")]
+        [HttpDelete]
+        [Route("delete/{id}")]
         public dynamic deletePilot(int id)
         {
             List<Parameter> parameters = new List<Parameter>
