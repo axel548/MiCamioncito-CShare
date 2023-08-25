@@ -1,4 +1,4 @@
-USE [MiCamioncito]
+--USE [MiCamioncito]
 GO
 
 

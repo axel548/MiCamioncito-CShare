@@ -1,4 +1,4 @@
-use MiCamioncito
+--use MiCamioncito
 go
 
 /****** StoredProcedure [dbo].[Client_Get] ******/

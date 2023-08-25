@@ -1,6 +1,6 @@
-CREATE DATABASE MiCamioncito;
+--CREATE DATABASE MiCamioncito;
 go
-use MiCamioncito;
+--use MiCamioncito;
 go
 -- Create Vehiculos table
 CREATE TABLE Vehicles (
